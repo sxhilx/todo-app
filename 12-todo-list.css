@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #212529;
+}
+
+.todo-title{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'algerian';
+  font-size: 30px;
+}
+
+.todo-grid,
+.todo-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.todo-input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input{
+  font-size: 15px;
+  padding: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.add-todo-button{
+  background-color: #6c757d;
+  color: black;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Lemon milk";
+}
+
+.delete-todo-button{
+  background-color: darkred;
+  color: black;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Lemon milk';
+}
+
+.error-msg{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
